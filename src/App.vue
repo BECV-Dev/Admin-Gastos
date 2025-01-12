@@ -14,9 +14,9 @@
   const disponible = ref(0)
 
   const gasto = reactive({
-    nombre: 'Gasto ejemplo',
-    cantidad: '400',
-    categoria: '5',
+    nombre: '',
+    cantidad: '',
+    categoria: '',
     id: null,
     fecha: Date.now()
   })
